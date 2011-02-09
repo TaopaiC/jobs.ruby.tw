@@ -62,7 +62,7 @@
         </p>
 	
         <p>
-          <%= link_to(t(:preview), "#", :class => "jobpreview") %>
-	  <%= f.submit t(:submit), :class => "submit button",:disable_with => t(:submiting) %>
+          <%= link_to(t(:preview), "#", :class => "jobpreview", "data-role" => "button") %>
+          <%= f.submit t(:submit), :class => "submit button",:disable_with => t(:submiting) %>
         </p>
 <% end %>
